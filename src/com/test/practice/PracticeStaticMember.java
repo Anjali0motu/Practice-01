@@ -1,21 +1,20 @@
 package com.test.practice;
 
-public class StaticMemberPratice {
+public class PracticeStaticMember {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		System.out.println("Mains start");
 		Run.display();
 		Run.i=10;	
 		Run.display();
 		System.out.println("Mains end");
 	
+
 	}
 
 }
-
- class Run
+class Run
 {
 	static int i;
 	
@@ -29,6 +28,3 @@ public class StaticMemberPratice {
 	
 }
 
-
-
- 
